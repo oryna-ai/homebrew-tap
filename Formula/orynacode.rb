@@ -1,7 +1,7 @@
 class Orynacode < Formula
   desc "Terminal AI coding agent"
   homepage "https://oryna.ai"
-  version "1.16.3"
+  version "1.16.4"
 
   if Hardware::CPU.arm?
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-arm64.zip"
