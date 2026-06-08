@@ -5,10 +5,10 @@ class Orynacode < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-arm64.zip"
-    sha256 "bd4e8dbc0eec22dc731729164181486167b1448b95c9fa48de31c1d853ddccff"
+    sha256 "c83f939c8950c2f6d8512e7cd678aa9ccc6418721f6d49afad7bcdeac51d59d9"
   else
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-x64.zip"
-    sha256 "e9b817e11aff1334e196c1106f94f3753306a4c14e9dc27d44ad311ea882fdb3"
+    sha256 "46b21307187f8dd1fa6cb2069a3fca701d39d112731742390930ebd9dd07a226"
   end
 
   license "MIT"
