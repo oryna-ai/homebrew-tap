@@ -8,7 +8,7 @@ class Orynacode < Formula
     sha256 "51665d4eac2396dfbff3ad2412039373f19c695d30a29db30ac099bfe7071eaf"
   else
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-x64.zip"
-    sha256 "51665d4eac2396dfbff3ad2412039373f19c695d30a29db30ac099bfe7071eaf"
+    sha256 "06ecfaa8789870e5089dcaea617de11259f6abecdf817b2707f9c66d7115abb5"
   end
 
   license "MIT"
