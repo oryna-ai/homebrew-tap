@@ -1,14 +1,14 @@
 class Orynacode < Formula
   desc "Terminal AI coding agent"
   homepage "https://oryna.ai"
-  version "1.16.9"
+  version "1.16.10"
 
   if Hardware::CPU.arm?
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-arm64.zip"
-    sha256 "61c8022358a0b25ee9927b671bba2d9f18a6734bec9e18534c7b1ae585c6447b"
+    sha256 "35380254ab2985fa35679db5f3018faf5353d420a8e5b85a2ef2e7aac7186f4a"
   else
     url "https://github.com/oryna-ai/orynacode/releases/download/v#{version}/orynacode-darwin-x64.zip"
-    sha256 "c472ace0d76e41fc091a9ee0f628480bf6662a6609cb9522ea3ee88bec7856b5"
+    sha256 "d2ce3a742a599f12bf71b6107b0ce3b6bc381d75c84391a6c675b53cdc7324e7"
   end
 
   license "MIT"
